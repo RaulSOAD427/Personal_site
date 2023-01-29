@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--font: Arvo from Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Playfair+Display:wght@700&display=swap");
+    </style>
+    <link rel="stylesheet" href="main.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raul Valadez</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Raul Valadez</h1>
+      <h2 style="display: inline" class="education">
+        University of California, San Diego
+      </h2>
+      <h4>Electrical Engineering: Computer System and Designs</h4>
+    </div>
+    <nav class="navbar">
+      <a href="#about">About Me</a>
+      <a href="#project1">SmartWatch</a>
+      <a href="#project2">SpotifyAPI</a>
+      <a href="#project3">Poker</a>
+    </nav>
+    <div class="project" id="about">
+      <div>
+        <h2>About Me</h2>
+        <br />
+        <p>
+          My name's Raul and I love music and my cat Bathory. I enjoy all music
+          from indie pop, alternative rock, and all the way to heavy metal. My
+          main hobby is playing my guitar, and record collecting, but my
+          favorite passtime has to be simply spending time with my friends.
+          <br />
+          <!-- Input more later -->
+        </p>
+        <div class="collage">
+          <div>
+            <img id="cat-pic" src="images/Bathory.png" alt="myCat" />
+          </div>
+          <div>
+            <img id="guitar-pic" src="images/guitar_art.png" alt="guitar" />
+          </div>
+        </div>
+      </div>
+      <div>
+        <img id="profile" src="images/profile_new.png" alt="me" />
+        <!-- <img id="cat-pic" src="images/Bathory.png" alt="myCat" />
+        <img id="guitar-pic" src="images/guitar_art.png" alt="guitar" /> -->
+      </div>
+    </div>
+
+    <div class="project" id="project1">
+      <div>
+        <h2>IoT SmartWatch Prototype</h2>
+        <br />
+        <p>
+          I created a smartwatch along with my classmate/partner that shows the
+          time and weather using a Weather API.
+          <br />It detects your heartrate from the following analog inputs:
+          accelerometer and photodetector. This project helped me become more
+          comfortable interacting with embedded systems.
+          <br />
+          <br />
+          <b>Languages: Python, C</b>
+          <br />
+          <b>Type: Class Project</b>
+        </p>
+      </div>
+      <div>
+        <img id="watch-pic" src="images/watch1.png" alt="smartwatch" />
+        <img id="watch-pic" src="images/watch2.png" alt="smartwatch" />
+      </div>
+    </div>
+    <!-- Spotify -->
+    <div class="project" id="project2">
+      <div>
+        <h2>Spotify Playlist Maker</h2>
+        <br />
+        <p>
+          With the Spotify API I used HTTP requests to GET my current top 50
+          songs, which I then used to create (POST) a playlist with my favorite
+          current songs! I plan to create a script to run the program every
+          month in order to create monthly playlists.
+          <br />
+          <!-- Input more later -->
+          <br />
+          <b>Languages: Python</b>
+          <br />
+          <b>Type: Personal Project</b>
+        </p>
+      </div>
+      <div>
+        <img
+          id="spotify-pic"
+          src="images/SpotifyAPItopSongs.png"
+          alt="spotifyPlaylist"
+        />
+        <!-- <img id="watch-pic" src="images/watch2.png" alt="smartwatch" />  -->
+      </div>
+    </div>
+
+    <div class="project" id="project3">
+      <div>
+        <h2>Poker OOP Implementation</h2>
+        <br />
+        <p>
+          I implemented a full Poker game for my Object Oriented Programming
+          class where I designed the game mechanics and worked with all aspects
+          of object oriented programming. Worked with managing memory as well
+          developed intuition for pointers.
+          <br />
+          <!-- Input more later -->
+          <br />
+          <b>Languages: C++</b>
+          <br />
+          <b>Type: Class Project</b>
+        </p>
+      </div>
+      <div>
+        <img id="poker-pic" src="images/poker_new.png" alt="pokerpic" />
+        <!-- <img id="watch-pic" src="images/watch2.png" alt="smartwatch" />  -->
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <noscript>Need JS</noscript>
+  </body>
+</html>
