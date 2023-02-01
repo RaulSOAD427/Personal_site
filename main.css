@@ -13,19 +13,20 @@ body {
 
 h1 {
   /* font-family: 'Arvo', serif; */
-  padding-top: 1%;
+  padding-top: 0.05em;
   font-family: "Playfair Display", serif;
-  font-size: 60px;
-  letter-spacing: 0.06ch;
+  font-size: 3.5em;
+  /* letter-spacing: 0.06ch; */
   color: #0466c8;
-  padding-left: 5px;
+  padding-left: 0.3125em;
   background-color: #e7ecef;
 }
 h2 {
   font-family: "Playfair Display", serif;
-  padding-left: 2%;
-  padding-top: 2%;
+  padding-left: 0.6em;
+  padding-top: 0.01em;
   font-weight: bold;
+  font-size: 1.5em;
 }
 .header {
   display: flex;
@@ -42,20 +43,23 @@ h2 {
 }
 h4 {
   font-weight: bold;
-  padding-left: 5px;
+  padding-left: 0.3215em;
 }
 p {
+  display: inline-block;
   font-family: "Playfair Display", serif;
   font-size: 1.5em;
   font-weight: bold;
-  margin-left: 1.5%;
+  margin-left: 0.6em;
   color: lightgray;
   width: 80%;
-  float: lef;
+  word-wrap: break-word;
+  /* white-space: pre-wrap; */
+  word-break: break-word;
 }
 
 nav {
-  padding: 20px;
+  padding: 1.25em;
   font-family: "Arvo", serif;
   text-align: center;
   font-size: medium;
@@ -71,9 +75,9 @@ a {
   color: navy;
   text-decoration: none;
   font-size: larger;
-  border-radius: 35px;
+  border-radius: 2em;
   margin-top: 10%;
-  max-height: 8px;
+  max-height: 0.5em;
 }
 
 a:hover {
@@ -84,9 +88,12 @@ a:hover {
 .project {
   background-color: #144272;
   color: white;
-  height: 55ch;
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
+  /* flex-direction: column; */
+  min-height: 70vh;
+  /* display: flex;
+  flex-direction: column;
+  min-height: 100vh */
   border-top: solid 3px #333;
 }
 
@@ -126,28 +133,26 @@ b {
 }
 
 img {
-  max-width: 38%;
-  height: auto;
-  display: inline;
-  float: right;
-  margin-top: 5ch;
-  margin-right: 40px;
-  border-radius: 12px;
+  width: 15em;
+  display: inline-block;
+  margin-top: 5em;
+  margin-right: 2.5ch;
+  border-radius: 0.75em;
   overflow: hidden;
   /* border: solid; */
 }
 
 #spotify-pic {
-  max-width: 65%;
+  width: 25em;
   height: auto;
   display: inline;
   float: right;
   margin-top: 5ch;
-  margin-right: 40px;
-  border-radius: 12px;
+  /* margin-right: 2.5em; */
+  border-radius: 0.75em;
 }
 #poker-pic {
-  max-width: 58%;
+  width: 17em;
   height: auto;
   display: inline;
   float: right;
@@ -156,33 +161,31 @@ img {
   border-radius: 12px;
 }
 #cat-pic {
-  max-width: 22%;
+  width: 5em;
   height: auto;
   float: left;
   margin-left: 8em;
+  margin-right: 2em;
   transform: rotate(-3deg);
 }
 #guitar-pic {
-  max-width: 75%;
+  width: 10em;
   height: auto;
   float: left;
-  left: 2em;
+  margin-left: 5em;
   /* margin-top: 4em;
   border-bottom: 5ch; */
 }
 #profile {
-  max-width: 64%;
-  height: auto;
-  float: right;
+  width: 15em;
   margin-top: 5ch;
   margin-right: 8em;
   border-radius: 50%;
 }
 .collage {
   display: flex;
-  flex-wrap: nowrap;
   align-content: flex-start;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 footer {
   height: 4em;
