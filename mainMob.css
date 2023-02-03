@@ -29,21 +29,22 @@ h2 {
   font-size: 1.5em;
 }
 .header {
+  min-height: 20vh;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
 }
 .header h2 {
   color: #333;
 }
-.header-r {
-  float: right;
-  margin-top: 5.4em;
+.header-l {
   margin-right: 3em;
 }
 h4 {
-  font-weight: bold;
   padding-left: 0.3215em;
+  font-size: x-large;
 }
 p {
   display: inline-block;
@@ -59,24 +60,23 @@ p {
 }
 
 nav {
+  visibility: hidden;
   padding: 1.25em;
   font-family: "Arvo", serif;
   text-align: center;
-  font-size: medium;
+  font-size: small;
   background-color: lightgray;
   justify-content: center;
 }
 
 a {
   margin: 0%;
-  padding: 1% 6%;
   /* border: 1px solid darkgray; */
   display: inline;
   color: navy;
   text-decoration: none;
-  font-size: larger;
+  font-size: x-large;
   border-radius: 2em;
-  margin-top: 10%;
   max-height: 0.5em;
 }
 
@@ -152,21 +152,22 @@ b {
 
 img {
   width: 12em;
-  display: inline-block;
+  /* display: inline-block; */
+  display: block;
   margin-top: 4em;
-  margin-left: 1em;
   border-radius: 0.75em;
   margin-bottom: 3em;
   /* border: solid; */
 }
 
 #spotify-pic {
+  border-radius: solid 1px white;
   width: 15em;
   height: auto;
   display: inline;
   float: right;
   margin-top: 5ch;
-  /* margin-right: 2.5em; */
+  margin-right: 2.5em;
   border-radius: 0.75em;
 }
 #poker-pic {
@@ -180,6 +181,8 @@ img {
 }
 #cat-pic {
   width: 5em;
+  margin-top: 1em;
+  left: 1em;
   height: auto;
   float: left;
   transform: rotate(-3deg);
@@ -189,7 +192,6 @@ img {
   width: 10em;
   height: auto;
   float: left;
-  margin-left: 3em;
   /* margin-top: 4em;
     border-bottom: 5ch; */
 }
@@ -200,9 +202,12 @@ img {
   border-radius: 50%;
 }
 .collage {
+  visibility: hidden;
+  border: solid 1px white;
+
   display: flex;
-  align-content: flex-start;
-  /* justify-content: space-around; */
+
+  justify-content: flex-start;
 }
 footer {
   height: 4em;

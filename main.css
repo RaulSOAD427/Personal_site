@@ -91,7 +91,7 @@ a:hover {
   color: white;
   display: flex;
   flex-direction: column;
-  min-height: 70vh;
+  min-height: 60vh;
   /* display: flex;
     min-height: 100vh */
   flex-direction: row;
@@ -143,10 +143,11 @@ b {
 }
 
 img {
-  width: 10em;
+  width: 15em;
   display: inline-block;
   margin-top: 5em;
   margin-left: 2.5ch;
+  margin-right: 5ch;
   border-radius: 0.75em;
   margin-bottom: 3em;
   /* border: solid; */
