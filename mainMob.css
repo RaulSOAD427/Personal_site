@@ -15,7 +15,7 @@ h1 {
   /* font-family: 'Arvo', serif; */
   padding-top: 0.05em;
   font-family: "Playfair Display", serif;
-  font-size: 3.5em;
+  font-size: 1.5em;
   /* letter-spacing: 0.06ch; */
   color: #0466c8;
   padding-left: 0.3125em;
@@ -90,20 +90,28 @@ a:hover {
   background-color: #144272;
   color: white;
   display: flex;
+  min-height: 70vh;
+  flex-wrap: wrap;
+  border-top: solid 3px #333;
+}
+@media (max-width: 320px) {
+  .projectMob {
+    display: block;
+  }
+  .projectPC {
+    display: none;
+  }
+}
+
+.project {
+  background-color: #144272;
+  color: white;
+  display: flex;
   flex-direction: column;
   min-height: 70vh;
   /* display: flex;
     min-height: 100vh */
   flex-direction: row;
-  border-top: solid 3px #333;
-}
-.project {
-  background-color: #144272;
-  color: white;
-  display: flex;
-  min-height: 70vh;
-  /* display: flex;
-    min-height: 100vh */
   border-top: solid 3px #333;
 }
 
@@ -184,7 +192,7 @@ img {
   float: left;
   margin-left: 5em;
   /* margin-top: 4em;
-  border-bottom: 5ch; */
+    border-bottom: 5ch; */
 }
 #profile {
   width: 15em;
