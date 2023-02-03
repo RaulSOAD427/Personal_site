@@ -161,8 +161,7 @@ img {
 }
 
 #spotify-pic {
-  border-radius: solid 1px white;
-  width: 15em;
+  width: 10em;
   height: auto;
   display: inline;
   float: right;
