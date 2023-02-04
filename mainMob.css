@@ -143,7 +143,7 @@ b {
 }
 
 img {
-  width: 12em;
+  width: 8em;
   /* display: inline-block; */
   display: block;
   margin-top: 4em;
@@ -153,12 +153,9 @@ img {
 }
 
 #spotify-pic {
-  width: 8em;
+  max-width: 15em;
   height: auto;
-  display: inline;
-  float: right;
   margin-top: 5ch;
-  margin-right: 2.5em;
   border-radius: 0.75em;
 }
 #poker-pic {
