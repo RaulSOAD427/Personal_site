@@ -25,26 +25,26 @@ h2 {
   font-family: "Playfair Display", serif;
   padding-left: 0.6em;
   padding-top: 0.01em;
-  font-weight: bold;
-  font-size: 1.5em;
+  font-size: 0.8em;
 }
 .header {
-  min-height: 20vh;
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap-reverse;
+  align-items: flex-start;
   align-content: flex-start;
-  flex-wrap: wrap;
-  /* justify-content: space-between; */
 }
-.header h2 {
-  color: #333;
-}
+
 .header-l {
-  margin-right: 3em;
+  margin-bottom: 1px;
+}
+.header-r {
+  margin-top: 1px;
+  flex-shrink: 3;
+  /* margin-right: 3em; */
 }
 h4 {
   padding-left: 0.3215em;
-  font-size: x-large;
+  font-size: medium;
 }
 p {
   display: inline-block;
@@ -75,9 +75,9 @@ a {
   display: inline;
   color: navy;
   text-decoration: none;
-  font-size: x-large;
-  border-radius: 2em;
-  max-height: 0.5em;
+  font-size: small;
+  border-radius: 1.5em;
+  max-height: 0.3em;
 }
 
 a:hover {
@@ -93,14 +93,6 @@ a:hover {
   min-height: 70vh;
   flex-wrap: wrap;
   border-top: solid 3px #333;
-}
-@media (max-width: 320px) {
-  .projectMob {
-    display: block;
-  }
-  .projectPC {
-    display: none;
-  }
 }
 
 .project {
