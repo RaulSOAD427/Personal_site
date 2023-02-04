@@ -21,11 +21,12 @@ h1 {
   padding-left: 0.3125em;
   background-color: #e7ecef;
 }
-h3 {
+h2 {
   font-family: "Playfair Display", serif;
   padding-left: 0.6em;
   padding-top: 0.01em;
-  font-size: 1em;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 .header {
   display: flex;
