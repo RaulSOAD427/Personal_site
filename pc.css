@@ -33,8 +33,6 @@ b {
     justify-content: space-between;
     margin-top: 2ch;
     background-color: #d4dcef;
-    margin-left: 2ch;
-    margin-right: 2ch;
 
     /* display: flex;
       min-height: 100vh */
@@ -70,7 +68,6 @@ b {
     /* font-family: "Source Sans Pro", sans-serif; */
     flex-grow: 1;
     text-align: center;
-    padding-right: 2ch;
   }
   .header-l h1 {
     font-family: "Raleway", sans-serif;
@@ -81,12 +78,12 @@ b {
   }
   .header-l h2 {
     margin: 0;
-    font-size: 0.7em;
+    font-size: 1em;
     color: #333;
   }
   .header-l h3 {
     margin: 0;
-    font-size: 0.7em;
+    font-size: 1em;
     color: #333;
   }
 }
@@ -102,12 +99,6 @@ nav {
   font-size: medium;
   background-color: lightgray;
   justify-content: center;
-}
-.header-l {
-  font-family: "Raleway", sans-serif;
-  /* font-family: "Source Sans Pro", sans-serif; */
-  flex-grow: 1;
-  padding-right: 8ch;
 }
 .projects-title {
   text-align: center;
