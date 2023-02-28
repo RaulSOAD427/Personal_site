@@ -62,31 +62,6 @@ b {
   font-size: 1.6em;
   color: #333;
 }
-@media (max-width: 700px) {
-  .header-l {
-    font-family: "Raleway", sans-serif, "Source Sans Pro", sans-serif;
-    /* font-family: "Source Sans Pro", sans-serif; */
-    flex-grow: 1;
-    text-align: center;
-  }
-  .header-l h1 {
-    font-family: "Raleway", sans-serif;
-    /* font-family: "Source Sans Pro", sans-serif; */
-    margin-top: 3.3ch;
-    font-size: 1.6em;
-    font-weight: 50;
-  }
-  .header-l h2 {
-    margin: 0;
-    font-size: 1em;
-    color: #333;
-  }
-  .header-l h3 {
-    margin: 0;
-    font-size: 1em;
-    color: #333;
-  }
-}
 .project h3 {
   color: #554d4e;
   font-weight: bolder;
