@@ -1,0 +1,222 @@
+* {
+  /* margin: 0; */
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #d4dcef;
+}
+b {
+  color: #b38c5f;
+  font-weight: 900;
+  text-shadow: 1px 1px 1px #333;
+}
+.header {
+  display: flex;
+  flex: 2 1;
+  padding: 2ch;
+  justify-content: space-between;
+  margin-top: 2ch;
+  background-color: #d4dcef;
+  margin-left: 2ch;
+  margin-right: 2ch;
+  /* min-height: 30em; */
+}
+@media (max-width: 700px) {
+  .header {
+    display: flex;
+    flex: 2 1;
+    padding: 2ch;
+    justify-content: space-between;
+    margin-top: 2ch;
+    background-color: #d4dcef;
+    margin-left: 2ch;
+    margin-right: 2ch;
+
+    /* display: flex;
+      min-height: 100vh */
+    flex-wrap: wrap;
+  }
+}
+.header-l {
+  font-family: "Raleway", sans-serif, "Source Sans Pro", sans-serif;
+  /* font-family: "Source Sans Pro", sans-serif; */
+  flex-grow: 1;
+  padding-right: 8ch;
+}
+.header-l h1 {
+  font-family: "Raleway", sans-serif;
+  /* font-family: "Source Sans Pro", sans-serif; */
+  margin-top: 3.3ch;
+  font-size: 2.6em;
+  font-weight: 50;
+}
+.header-l h2 {
+  margin: 0;
+  font-size: 1.6em;
+  color: #333;
+}
+.header-l h3 {
+  margin: 0;
+  font-size: 1.6em;
+  color: #333;
+}
+.project h3 {
+  color: #554d4e;
+  font-weight: bolder;
+}
+
+nav {
+  padding: 1.25em;
+  font-family: "Arvo", serif;
+  text-align: center;
+  font-size: medium;
+  background-color: lightgray;
+  justify-content: center;
+}
+.header-l {
+  font-family: "Raleway", sans-serif;
+  /* font-family: "Source Sans Pro", sans-serif; */
+  flex-grow: 1;
+  padding-right: 8ch;
+}
+.projects-title {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  margin-left: 10ch;
+  margin-right: 10ch;
+  font-size: 2.5em;
+  letter-spacing: 0.2ch;
+  color: black;
+  border-top: solid 1px black;
+  padding-bottom: 2ch;
+}
+#the_flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1ch;
+  margin-top: 3ch;
+  margin-left: 1%;
+  margin-right: 3%;
+  margin-bottom: 3ch;
+  /* justify-content: center; */
+}
+/* #full-pic {
+  width: 22em;
+} */
+.under {
+  padding-top: 3.4em;
+}
+.project {
+  /* font-family: "Source Sans Pro", sans-serif; */
+  font-family: "Raleway", sans-serif;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.15);
+  font-weight: 400;
+  text-align: center;
+  flex: 1;
+  background-color: #f1f8ff;
+  border-radius: 1.2ch;
+  margin-left: 1.2%;
+  transition: 0.3s ease-in-out;
+}
+.project:hover {
+  color: #333;
+  transform: scale(1.02);
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.project h2 {
+  color: #333;
+  font-size: 1.9em;
+}
+.pic {
+  /* ackground-color: red; */
+  border-radius: 3ch;
+  filter: brightness(95%);
+  padding: 1em;
+  width: 20em;
+}
+#profile {
+  float: right;
+  width: 20em;
+  margin-right: 3ch;
+  margin-top: 6ch;
+  border-radius: 50%;
+  border: 4px solid #f1f8ff;
+}
+h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #333;
+}
+#github_link {
+  right: 2ch;
+}
+#linkedin_link {
+  right: 2ch;
+}
+.topper {
+  display: inline;
+}
+.topper h1 {
+  font-family: "Raleway", sans-serif, "Source Sans Pro", sans-serif;
+  font-size: 3em;
+}
+.links {
+  /* margin-top: 2ch; */
+  float: right;
+  display: flex;
+  width: 10em;
+  gap: 1ch;
+  justify-content: flex-end;
+}
+.aboutme {
+  margin: 2ch;
+  font-family: "Raleway", sans-serif, "Source Sans Pro", sans-serif;
+  /* font-family: "Source Sans Pro", sans-serif; */
+  text-align: center;
+  padding-right: 4ch;
+  padding-left: 4ch;
+  background-color: #144272;
+  color: white;
+  border-radius: 1.2ch;
+}
+
+.aboutme h2 {
+  font-size: 2.5em;
+  padding-top: 2ch;
+  /* font-family: "Source Sans Pro", sans-serif; */
+  color: white;
+}
+
+.aboutme h3 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.07ch;
+  font-size: 2em;
+  /* font-family: "Source Sans Pro", sans-serif; */
+  background-color: #144272;
+  color: white;
+  margin: 0;
+}
+.bottom {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#cat-pic {
+  /* ackground-color: red; */
+  padding: 1em;
+  max-width: 7em;
+  height: auto;
+}
+#guitar-pic {
+  /* ackground-color: red; */
+  padding: 1em;
+  max-width: 19em;
+  height: auto;
+}

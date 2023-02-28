@@ -87,6 +87,7 @@ a:hover {
 }
 
 .project {
+  /* font-family: "Source Sans Pro", sans-serif; */
   background-color: #144272;
   color: white;
   display: flex;
@@ -95,15 +96,6 @@ a:hover {
   /* display: flex;
     min-height: 100vh */
   flex-direction: row;
-  border-top: solid 3px #333;
-}
-.project {
-  background-color: #144272;
-  color: white;
-  display: flex;
-  min-height: 70vh;
-  /* display: flex;
-    min-height: 100vh */
   border-top: solid 3px #333;
 }
 
@@ -188,10 +180,8 @@ img {
   border-bottom: 5ch; */
 }
 #profile {
-  width: 15em;
-  margin-top: 5ch;
-  margin-right: 8em;
-  border-radius: 50%;
+  width: 20em;
+  border-radius: 70%;
 }
 .collage {
   display: flex;
