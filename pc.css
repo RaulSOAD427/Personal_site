@@ -47,6 +47,32 @@ b {
   flex-grow: 1;
   padding-right: 8ch;
 }
+@media (max-width: 700px) {
+  .header-l {
+    font-family: "Raleway", sans-serif, "Source Sans Pro", sans-serif;
+    /* font-family: "Source Sans Pro", sans-serif; */
+    flex-grow: 1;
+    text-align: center;
+    padding-right: 2ch;
+  }
+  .header-l h1 {
+    font-family: "Raleway", sans-serif;
+    /* font-family: "Source Sans Pro", sans-serif; */
+    margin-top: 3.3ch;
+    font-size: 2em;
+    font-weight: 50;
+  }
+  .header-l h2 {
+    margin: 0;
+    font-size: 1.3em;
+    color: #333;
+  }
+  .header-l h3 {
+    margin: 0;
+    font-size: 1.3em;
+    color: #333;
+  }
+}
 .header-l h1 {
   font-family: "Raleway", sans-serif;
   /* font-family: "Source Sans Pro", sans-serif; */
@@ -219,4 +245,18 @@ h1 {
   padding: 1em;
   max-width: 19em;
   height: auto;
+}
+@media (max-width: 700px) {
+  #cat-pic {
+    /* ackground-color: red; */
+    padding: 0.3em;
+    max-width: 4em;
+    height: auto;
+  }
+  #guitar-pic {
+    /* ackground-color: red; */
+    padding: 0.3em;
+    max-width: 10em;
+    height: auto;
+  }
 }
