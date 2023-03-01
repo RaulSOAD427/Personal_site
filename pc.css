@@ -269,6 +269,10 @@ h1 {
   .header-text {
     text-align: center;
   }
+  .the-video {
+    visibility: hidden;
+    margin-left: 0.1ch;
+  }
   #profile {
     margin-top: 2ch;
     max-width: 80%;
