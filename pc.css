@@ -213,6 +213,13 @@ h1 {
   height: auto;
 }
 @media (max-width: 700px) {
+  .topper {
+    display: block;
+    margin-bottom: 3em;
+  }
+  .myname {
+    font-size: 2ch;
+  }
   #cat-pic {
     /* ackground-color: red; */
     padding: 0.3em;
@@ -223,6 +230,48 @@ h1 {
     /* ackground-color: red; */
     padding: 0.3em;
     max-width: 10em;
+    height: auto;
+  }
+  /* #github_link {
+    visibility: hidden;
+  }
+  #linkenin_link {
+    visibility: hidden;
+  } */
+}
+
+@media (max-width: 700px) {
+  .header {
+    display: block;
+    min-height: 32em;
+  }
+  .header-l {
+    text-align: center;
+    display: inline;
+  }
+  .header-l h1 {
+    font-size: 1.3em;
+    margin: 0;
+    text-align: center;
+  }
+  .header-l h2 {
+    font-size: 1em;
+    color: #333;
+    text-align: center;
+    margin: 0;
+  }
+  .header-l h3 {
+    margin: 0;
+    font-size: 1em;
+    color: #333;
+    text-align: center;
+  }
+  .header-text {
+    text-align: center;
+  }
+  #profile {
+    margin-top: 2ch;
+    max-width: 80%;
     height: auto;
   }
 }
