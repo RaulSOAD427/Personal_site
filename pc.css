@@ -97,9 +97,6 @@ nav {
   margin-bottom: 3ch;
   /* justify-content: center; */
 }
-/* #full-pic {
-  width: 22em;
-} */
 .under {
   padding-top: 3.4em;
 }
@@ -270,7 +267,7 @@ h1 {
     text-align: center;
   }
   .the-video {
-    visibility: hidden;
+    display: none;
     margin-left: 0.1ch;
   }
   #profile {
